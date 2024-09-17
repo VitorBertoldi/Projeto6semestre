@@ -45,13 +45,11 @@ class Atividade {
   class Corrida extends Atividade {
     criarAtividade() {
       console.log('Criando atividade de corrida...');
-      // Implementação para criar atividade de corrida
     }
   }
   
   class Ciclismo extends Atividade {
     criarAtividade() {
       console.log('Criando atividade de ciclismo...');
-      // Implementação para criar atividade de ciclismo
     }
   }

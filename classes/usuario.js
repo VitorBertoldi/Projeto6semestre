@@ -16,3 +16,4 @@ class Usuario {
     getPerfil() {}
     getHistoricoAtividades() {}
   }
+

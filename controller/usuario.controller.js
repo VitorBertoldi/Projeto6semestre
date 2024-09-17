@@ -1,13 +1,6 @@
-mongoose.connect('mongodb+srv://vitorbertoldi:wrtYXEn67mrZT4im@cluster0.ad7ah.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-}).then(() => {
-  console.log('Conectado ao MongoDB');
-}).catch(err => {
-  console.error('Erro ao conectar ao MongoDB:', err);
-});
+import { Student } from '../model/db'
 
-const Student = mongoose.model('Student', studentSchema);
+//const Student = mongoose.model('Student', studentSchema);
 
 export const addStudent = async (req, res) => {
     const { firstName, lastName } = req.body;

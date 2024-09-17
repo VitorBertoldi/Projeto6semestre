@@ -14,4 +14,10 @@ class Notificao {
     getNotificacao(idNotificacao){}
     getNotificacoes(idUsuario){}
 
+    class Name {
+        constructor(parameters) {
+            
+        }
+    }
+
 }
